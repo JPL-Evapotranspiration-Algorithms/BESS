@@ -3,7 +3,7 @@ requires = ["setuptools>=60", "setuptools-scm>=8.0", "wheel"]
 
 [project]
 name = "BESS"
-version = "1.0.0"
+version = "1.0.1"
 description = "MODIS/Terra+Aqua Land Cover Type CMG Yearly L3 Global 0.05 Deg 2019 Collection 6 Dataset Python Tool"
 readme = "README.md"
 authors = [
