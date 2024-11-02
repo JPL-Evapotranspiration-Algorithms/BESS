@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0", "wheel"]
+
+[project]
+name = "BESS"
+version = "1.0.0"
+description = "MODIS/Terra+Aqua Land Cover Type CMG Yearly L3 Global 0.05 Deg 2019 Collection 6 Dataset Python Tool"
+readme = "README.md"
+authors = [
+    { name = "Gregory H. Halverson", email = "gregory.h.halverson@jpl.nasa.gov" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "rasters"
+]
+
+requires-python = ">=3.10"
+
+[tool.setuptools.package-data]
+BESS = ["*.txt", ".tif", "*.jpeg", "*.h5"]
+
+[project.urls]
+"Homepage" = "https://github.com/JPL-Evapotranspiration-Algorithms/BESS"
