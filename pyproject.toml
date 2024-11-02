@@ -2,9 +2,9 @@
 requires = ["setuptools>=60", "setuptools-scm>=8.0", "wheel"]
 
 [project]
-name = "BESS"
-version = "1.0.3"
-description = "MODIS/Terra+Aqua Land Cover Type CMG Yearly L3 Global 0.05 Deg 2019 Collection 6 Dataset Python Tool"
+name = "breathing_earth_system_simulator"
+version = "1.0.4"
+description = "Breathing Earth System Simulator (BESS) Gross Primary Production (GPP) and Evapotranspiration (ET) Model Python"
 readme = "README.md"
 authors = [
     { name = "Gregory H. Halverson", email = "gregory.h.halverson@jpl.nasa.gov" },
@@ -21,7 +21,7 @@ dependencies = [
 requires-python = ">=3.10"
 
 [tool.setuptools.package-data]
-BESS = ["*.txt", ".tif", "*.jpeg", "*.h5"]
+breathing_earth_system_simulator = ["*.txt", ".tif", "*.jpeg", "*.h5"]
 
 [project.urls]
-"Homepage" = "https://github.com/JPL-Evapotranspiration-Algorithms/BESS"
+"Homepage" = "https://github.com/JPL-Evapotranspiration-Algorithms/breathing_earth_system_simulator"
